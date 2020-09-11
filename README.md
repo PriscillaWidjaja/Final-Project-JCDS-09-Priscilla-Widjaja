@@ -7,7 +7,7 @@
 
 A prediction machine learning project using classification algorithm that predicts whether the client will subscribe a term deposit or not.
 
-### Dataset
+### Datasets
 
 http://archive.ics.uci.edu/ml/datasets/Bank+Marketing#
 
