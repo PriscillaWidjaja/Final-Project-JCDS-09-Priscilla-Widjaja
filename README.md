@@ -53,8 +53,11 @@ Based on F1 Score evaluation, the best model is Decision Tree Classifier.
 
 ### Conclusion
 This machine learning helps company to reduce telemarketing costs.
+
 The results can be improve by having more data with target = 1.
+
 This project helps get better understanding at prediction machine learning using classification algorithms.
+
 
 ### Business Insights:
 
