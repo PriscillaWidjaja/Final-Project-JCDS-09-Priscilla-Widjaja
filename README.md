@@ -34,17 +34,34 @@ The classification goal is to predict if the client will subscribe a term deposi
 1. Handling Imbalance Target : SMOTE oversampling.
 2. Modeling: Decision Tree Classifier, KNN Classifier, Random Forest Classifier, and Logistic Regression.
 
-|      Before Hyperparameter Tuning     |  After Hyperparameter Tuning  |
-|:-:|:--:|
-|  0.64 | 0.983 |
+|           |  F1 Score  |
+|:-:|:-:|:-:|
+| Logistic Regression | 0.983 |
+|:-:|:-:|:-:|
+| Decision Tree | 0.983 |
+|:-:|:-:|:-:|
+| Random Forest | 0.983 |
+|:-:|:-:|:-:|
+|  KNN Classifier | 0.983 |
+|:-:|:-:|:-:|
+
 
 Based on F1 Score evaluation, the best model is Decision Tree Classifier.
 
 3. Hyperparameter Tuning : GridSearchCV.
 
-|      Before Hyperparameter Tuning     |  After Hyperparameter Tuning  |
-|:-:|:--:|
-|  0.64 | 0.983 |
+#### F1 Score
+
+|           |  Before  | After |
+|:-:|:-:|:-:|
+| Logistic Regression | 0.983 | 0.983 |
+|:-:|:-:|:-:|
+| Decision Tree | 0.983 | 0.983 |
+|:-:|:-:|:-:|
+| Random Forest | 0.983 | 0.983 |
+|:-:|:-:|:-:|
+|  KNN Classifier | 0.983 | 0.983 |
+|:-:|:-:|:-:|
 
 ### Conclusion
 This machine learning helps company to reduce telemarketing costs by eliminating customers who aren't going to subscribe.
