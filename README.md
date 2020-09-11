@@ -4,9 +4,12 @@
 
 
 
+
 A prediction machine learning project using classification algorithm that predicts whether the client will subscribe a term deposit or not.
 
-Dataset: http://archive.ics.uci.edu/ml/datasets/Bank+Marketing#
+### Dataset
+
+http://archive.ics.uci.edu/ml/datasets/Bank+Marketing#
 
 The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution.
 
@@ -65,27 +68,22 @@ This project helps get better understanding at prediction machine learning using
 Credits: Colorlib.com
 
 #### Home
-This page is to fill features for predicting Loan status. There is 9 features which is, family size, contract type, gender, province, age, group history type, monthly expense, and loan amount.
 
 (gambar)
 
 #### Data
-This page shows some datas that I have cleaned and prepared for modelling.
 
 (gambar)
 
 #### Plot
-This page shows some plots. There are barplot for user status in each Province, heatmap of loan amount of each Province, histogram of customer's age and loan amounts.
 
 (gambar)
 
 #### Prediction
-This page tells the result of the input that we give at the Home page.
 
 (gambar)
 
-#### Author
-This page tells you more about me.
+#### Results
 
 (gambar)
 
