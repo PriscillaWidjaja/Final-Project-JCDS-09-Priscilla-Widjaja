@@ -62,7 +62,7 @@ This project helps get better understanding at prediction machine learning using
 ### Business Insights:
 
 - The company should create marketing campaign targeted to bank clients who are older than 38 years old.
-- The company needs to create products which will attract bank clients who are self-employed, unemployed, entrepreneur dan housemaid.
+- The company needs to create products which will attract bank clients who are self-employed, unemployed, entrepreneurs dan housemaids.
 
 ### Dashboard
 Credits: Colorlib.com
