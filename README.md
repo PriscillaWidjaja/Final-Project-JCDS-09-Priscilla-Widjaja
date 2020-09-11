@@ -37,17 +37,12 @@ The classification goal is to predict if the client will subscribe a term deposi
 
 Based on F1 Score evaluation, the best model is Decision Tree Classifier.
 
-#### Before Hyperparameter Tuning
 
-| Recall Default   |      F1-score      |  Returned Value |
-|----------|:-------------:|------:|
-| 0.28 |  0.64 | 0.983 |
+#### F1 Score
 
-#### After Hyperparameter Tuning
-
-| Recall Default   |      F1-score      |  Returned Value |
-|----------|:-------------:|------:|
-| 0.28 |  0.64 | 0.983 |
+|      Before Hyperparameter Tuning     |  After Hyperparameter Tuning  |
+|:-------------:|------:|
+|  0.64 | 0.983 |
 
 
 
