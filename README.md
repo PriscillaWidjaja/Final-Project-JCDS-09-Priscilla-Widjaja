@@ -3,6 +3,7 @@
 ### Deposit Term Subscription Prediction Machine Learning
 
 
+
 A prediction machine learning project using classification algorithm that predicts whether the client will subscribe a term deposit or not.
 
 Dataset: http://archive.ics.uci.edu/ml/datasets/Bank+Marketing#
@@ -68,11 +69,6 @@ This page is to fill features for predicting Loan status. There is 9 features wh
 
 (gambar)
 
-#### Prediction
-This page tells the result of the input that we give at the Home page.
-
-(gambar)
-
 #### Data
 This page shows some datas that I have cleaned and prepared for modelling.
 
@@ -83,10 +79,14 @@ This page shows some plots. There are barplot for user status in each Province, 
 
 (gambar)
 
+#### Prediction
+This page tells the result of the input that we give at the Home page.
+
+(gambar)
+
 #### Author
 This page tells you more about me.
 
 (gambar)
 
 ##### Thank you for reading.
-
