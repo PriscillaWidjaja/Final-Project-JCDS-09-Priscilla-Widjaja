@@ -2,12 +2,15 @@
 
 ### Deposit Term Subscription Prediction Machine Learning
 
+
 A prediction machine learning project using classification algorithm that predicts whether the client will subscribe a term deposit or not.
 
 Dataset: http://archive.ics.uci.edu/ml/datasets/Bank+Marketing#
 
 The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution.
+
 The classification goal is to predict if the client will subscribe a term deposit (variable y).
+
 
 ### Cleaning and Pre-Processing
 
@@ -23,9 +26,9 @@ The classification goal is to predict if the client will subscribe a term deposi
 ### Feature Selection
 
 
-### Modelling
+### Modeling
 1. Handling Imbalance Target : SMOTE oversampling.
-2. Modelling: Decision Tree Classifier, KNN Classifier, Random Forest Classifier, and Logistic Regression.
+2. Modeling: Decision Tree Classifier, KNN Classifier, Random Forest Classifier, and Logistic Regression.
 3. Hyperparameter Tuning : GridSearchCV.
 
 Based on F1 Score evaluation, the best model is Decision Tree Classifier.
