@@ -29,6 +29,7 @@ The classification goal is to predict if the client will subscribe a term deposi
 
 ### Feature Selection
 
+(gambar)
 
 ### Handling Imbalance Target
 
@@ -48,9 +49,6 @@ The target was imbalance. So the SMOTE Oversampling technique was used to balanc
 | Random Forest | 0.983 |
 |  KNN Classifier | 0.983 |
 
-
-Based on F1 Score evaluation, the best model is Decision Tree Classifier.
-
 ### Hyperparameter Tuning
 
 Using GridSearchCV based on F1 Score the best parameters are ...
@@ -63,6 +61,8 @@ Using GridSearchCV based on F1 Score the best parameters are ...
 | Decision Tree | 0.983 | 0.983 |
 | Random Forest | 0.983 | 0.983 |
 |  KNN Classifier | 0.983 | 0.983 |
+
+Based on F1 Score evaluation, the best model is Decision Tree Classifier.
 
 ### Conclusion
 This machine learning helps company to reduce telemarketing costs by eliminating customers who aren't going to subscribe.
