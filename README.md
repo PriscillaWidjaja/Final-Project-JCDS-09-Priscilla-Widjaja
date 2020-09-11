@@ -4,12 +4,10 @@
 
 A prediction machine learning project using classification algorithm that predicts whether the client will subscribe a term deposit or not.
 
-Datasets: http://archive.ics.uci.edu/ml/datasets/Bank+Marketing#
+Dataset: http://archive.ics.uci.edu/ml/datasets/Bank+Marketing#
 
 The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution.
 The classification goal is to predict if the client will subscribe a term deposit (variable y).
-
-Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.
 
 ### Cleaning and Pre-Processing
 
