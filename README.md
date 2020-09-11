@@ -11,49 +11,45 @@ The classification goal is to predict if the client will subscribe a term deposi
 
 Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.
 
-### Pre-Processing
+### Cleaning and Pre-Processing
 
-1. I delete columns that contains 'unknown' value
-2. Drop Age outliers
+1. Drop rows containing 'unknown' values and age outliers.
+2. Encoded string datas to numerical.
 
-Dataframe After Pre-Processing
+#### Dataframe After Cleaning and Pre-Processing
+
+#### Dataframe After Cleaning and Pre-Processing
 
 (gambar)
 
+### Feature Selection
+
+
 ### Modelling
-I tried four classification algorithms: Decision Tree, KNN, Random Forest, and Logistic Regression.
-Based on F1 Score evaluation, Decision Tree Classifier is the best model.
-In order to upgrade the result, I handled imbalance target using SMOTE oversampling technique and hyperparameter tuning using GridSearchCV.
+1. Handling Imbalance Target : SMOTE oversampling.
+2. Modelling: Decision Tree Classifier, KNN Classifier, Random Forest Classifier, and Logistic Regression.
+3. Hyperparameter Tuning : GridSearchCV.
 
-Before Oversampling
+Based on F1 Score evaluation, the best model is Decision Tree Classifier.
 
-| Recall Default   |      f1-score      |  Returned Value |
+#### Before Tuning
+
+| Recall Default   |      F1-score      |  Returned Value |
 |----------|:-------------:|------:|
 | 0.28 |  0.64 | 0.983 |
 
-After Oversampling
+#### After Tuning
 
-| Recall Default   |      f1-score      |  Returned Value |
-|----------|:-------------:|------:|
-| 0.28 |  0.64 | 0.983 |
-
-Before Tuning
-
-| Recall Default   |      f1-score      |  Returned Value |
-|----------|:-------------:|------:|
-| 0.28 |  0.64 | 0.983 |
-
-After Tuning
-
-| Recall Default   |      f1-score      |  Returned Value |
+| Recall Default   |      F1-score      |  Returned Value |
 |----------|:-------------:|------:|
 | 0.28 |  0.64 | 0.983 |
 
 
 
 ### Conclusion
-Hopefully this projects helps get better understanding at classification machine learning.
-The results can be improve by having more data with target = 1. 
+This machine learning helps company to reduce telemarketing costs.
+The results can be improve by having more data with target = 1.
+This project helps get better understanding at prediction machine learning using classification algorithms.
 
 ### Business Insights:
 
