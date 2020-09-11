@@ -30,9 +30,9 @@ The classification goal is to predict if the client will subscribe a term deposi
 ### Feature Selection
 
 
+### Handling Imbalance Target : SMOTE Oversampling
+
 ### Modeling
-1. Handling Imbalance Target : SMOTE oversampling.
-2. Modeling: Decision Tree Classifier, KNN Classifier, Random Forest Classifier, and Logistic Regression.
 
 |           |  F1 Score  |
 |:-:|:-:|
@@ -44,7 +44,7 @@ The classification goal is to predict if the client will subscribe a term deposi
 
 Based on F1 Score evaluation, the best model is Decision Tree Classifier.
 
-3. Hyperparameter Tuning : GridSearchCV.
+### Hyperparameter Tuning : GridSearchCV.
 
 #### F1 Score
 
