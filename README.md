@@ -32,14 +32,12 @@ The classification goal is to predict if the client will subscribe a term deposi
 
 ### Handling Imbalance Target
 
-The target was imbalance.
-
 |           |  F1 Score  |
 |:-:|:-:|
 | No | 0.88 |
 | Yes | 0.12 |
 
-So the SMOTE Oversampling technique was used to balance the target.
+The target was imbalance. So the SMOTE Oversampling technique was used to balance the target.
 
 ### Modeling
 
