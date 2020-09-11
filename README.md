@@ -1,6 +1,6 @@
 # Final Project JCDS 09 - Priscilla Widjaja
 
-## Deposit Term Subscription Prediction Machine Learning
+### Deposit Term Subscription Prediction Machine Learning
 
 A prediction machine learning project using classification algorithm that predicts whether the client will subscribe a term deposit or not.
 
