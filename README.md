@@ -30,7 +30,16 @@ The classification goal is to predict if the client will subscribe a term deposi
 ### Feature Selection
 
 
-### Handling Imbalance Target : SMOTE Oversampling
+### Handling Imbalance Target
+
+The target was imbalance.
+
+|           |  F1 Score  |
+|:-:|:-:|
+| No | 0.88 |
+| Yes | 0.12 |
+
+So the SMOTE Oversampling technique was used to balance the target.
 
 ### Modeling
 
@@ -44,7 +53,9 @@ The classification goal is to predict if the client will subscribe a term deposi
 
 Based on F1 Score evaluation, the best model is Decision Tree Classifier.
 
-### Hyperparameter Tuning : GridSearchCV.
+### Hyperparameter Tuning
+
+Using GridSearchCV based on F1 Score the best parameters are ...
 
 #### F1 Score
 
