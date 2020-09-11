@@ -33,7 +33,7 @@ The classification goal is to predict if the client will subscribe a term deposi
 ### Handling Imbalance Target
 
 |           |  F1 Score  |
-|:-:|:-:|
+|:-|:-:|
 | No | 0.88 |
 | Yes | 0.12 |
 
@@ -42,7 +42,7 @@ The target was imbalance. So the SMOTE Oversampling technique was used to balanc
 ### Modeling
 
 |           |  F1 Score  |
-|:-:|:-:|
+|:-|:-:|
 | Logistic Regression | 0.983 |
 | Decision Tree | 0.983 |
 | Random Forest | 0.983 |
@@ -58,7 +58,7 @@ Using GridSearchCV based on F1 Score the best parameters are ...
 #### F1 Score
 
 |           |  Before  | After |
-|:-:|:-:|:-:|
+|:-|:-:|:-:|
 | Logistic Regression | 0.983 | 0.983 |
 | Decision Tree | 0.983 | 0.983 |
 | Random Forest | 0.983 | 0.983 |
