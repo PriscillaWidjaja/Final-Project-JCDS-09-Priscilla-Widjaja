@@ -21,7 +21,7 @@ The classification goal is to predict if the client will subscribe a term deposi
 1. Drop rows containing 'unknown' values and age outliers.
 2. Encoded string datas to numerical.
 
-#### Dataframe After Cleaning and Pre-Processing
+#### Dataframe Before Cleaning and Pre-Processing
 
 #### Dataframe After Cleaning and Pre-Processing
 
@@ -37,13 +37,13 @@ The classification goal is to predict if the client will subscribe a term deposi
 
 Based on F1 Score evaluation, the best model is Decision Tree Classifier.
 
-#### Before Tuning
+#### Before Hyperparameter Tuning
 
 | Recall Default   |      F1-score      |  Returned Value |
 |----------|:-------------:|------:|
 | 0.28 |  0.64 | 0.983 |
 
-#### After Tuning
+#### After Hyperparameter Tuning
 
 | Recall Default   |      F1-score      |  Returned Value |
 |----------|:-------------:|------:|
@@ -52,7 +52,7 @@ Based on F1 Score evaluation, the best model is Decision Tree Classifier.
 
 
 ### Conclusion
-This machine learning helps company to reduce telemarketing costs.
+This machine learning helps company to reduce telemarketing costs by eliminating customers who aren't going to subscribe.
 
 The results can be improve by having more data with target = 1.
 
@@ -61,11 +61,8 @@ This project helps get better understanding at prediction machine learning using
 
 ### Business Insights:
 
-- The company should add interest about 2%.
-- The company needs to upgrade the loan market in Province D, F, L because they produce a high amount of loan.
-- The company also needs to expand the market to Province G because there are almost no default customer provinces and a big ratio of no default customers.
-- On Province J, they need to campaign to people who older than 45 and/or has typical for contract type A or history type A
-- Start Massive Campaign on Province N
+- The company should create marketing campaign targeted to bank clients who are older than 38 years old.
+- The company needs to create products which will attract bank clients who are self-employed, unemployed, entrepreneur dan housemaid.
 
 ### Dashboard
 Credits: Colorlib.com
