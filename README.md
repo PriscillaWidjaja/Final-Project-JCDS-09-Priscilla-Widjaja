@@ -21,17 +21,19 @@ The classification goal is to predict if the client will subscribe a term deposi
 ### Feature Selection
 
 1. Drop columns that has strong correlations with each other.
-2. Choosing Top 10 features to use.
 
 ![Corr](Corr.png)
+
+2. Choosing Top 10 features to use.
+
 ![FeatureSelection](FeatureSelection.png)
 
 ### Handling Imbalance Target
 
-|           |  F1 Score  |
+| y | Data (%) |
 |:-|:-:|
-| No | 0.88 |
-| Yes | 0.12 |
+| No | 87.75 |
+| Yes | 12.25 |
 
 The target was imbalance. So the SMOTE Oversampling technique was used to balance the target.
 
@@ -39,23 +41,23 @@ The target was imbalance. So the SMOTE Oversampling technique was used to balanc
 
 |           |  F1 Score  |
 |:-|:-:|
-| Logistic Regression | 0.983 |
-| Decision Tree | 0.983 |
-| Random Forest | 0.983 |
-|  KNN Classifier | 0.983 |
+| Logistic Regression | 41.909023 |
+| Decision Tree Classifier | 32.397959 |
+| Random Forest Classifier | 41.319943 |
+| KNeighborsClassifier | 37.958533 |
 
 ### Hyperparameter Tuning
 
-Using GridSearchCV based on F1 Score the best parameters are ...
+Using GridSearchCV to choose the best parameters.
 
-#### F1 Score
+#### F1 Score Before & After Hyperparameter Tuning
 
 |           |  Before  | After |
 |:-|:-:|:-:|
-| Logistic Regression | 0.983 | 0.983 |
-| Decision Tree | 0.983 | 0.983 |
-| Random Forest | 0.983 | 0.983 |
-|  KNN Classifier | 0.983 | 0.983 |
+| Logistic Regression | 41.909023 | 41.784387 |
+| Decision Tree | 32.397959 | 46.731235 |
+| Random Forest | 41.319943 | 40.419162 |
+|  KNN Classifier | 37.958533 | 0.983 |
 
 Based on F1 Score evaluation, the best model is Decision Tree Classifier.
 
@@ -73,7 +75,6 @@ This project helps get better understanding at prediction machine learning using
 - The company needs to create products which will attract bank clients who are self-employed, unemployed, entrepreneurs dan housemaids.
 
 ### Dashboard
-Credits: Colorlib.com
 
 #### Home
 
