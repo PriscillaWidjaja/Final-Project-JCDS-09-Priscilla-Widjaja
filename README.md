@@ -2,9 +2,6 @@
 
 ### Deposit Term Subscription Prediction Machine Learning
 
-
-
-
 A prediction machine learning project using classification algorithm that predicts whether the client will subscribe a term deposit or not.
 
 ### Datasets
@@ -20,12 +17,6 @@ The classification goal is to predict if the client will subscribe a term deposi
 
 1. Drop rows containing 'unknown' values and age outliers.
 2. Encoded string datas to numerical.
-
-#### Dataframe Before Cleaning and Pre-Processing
-
-#### Dataframe After Cleaning and Pre-Processing
-
-(gambar)
 
 ### Feature Selection
 
