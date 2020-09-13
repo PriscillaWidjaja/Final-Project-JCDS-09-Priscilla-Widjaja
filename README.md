@@ -58,7 +58,7 @@ Using GridSearchCV to choose the best parameters.
 | Logistic Regression | 41.909023 | 41.784387 |
 | Decision Tree | 32.397959 | 46.731235 |
 | Random Forest | 41.319943 | 40.419162 |
-|  KNN Classifier | 37.958533 | 0.983 |
+|  KNN Classifier | 37.958533 | 40.419162 |
 
 Based on F1 Score evaluation, the best model is Decision Tree Classifier.
 
