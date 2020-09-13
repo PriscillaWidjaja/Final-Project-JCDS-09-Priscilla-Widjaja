@@ -38,16 +38,7 @@ The classification goal is to predict if the client will subscribe a term deposi
 
 The target was imbalance. So SMOTE Oversampling technique was used to balance the target.
 
-### Modelling
-
-|           |  F1 Score  |
-|:-|:-:|
-| Logistic Regression | 41.909023 |
-| Decision Tree Classifier | 32.397959 |
-| Random Forest Classifier | 41.319943 |
-| KNeighborsClassifier | 37.958533 |
-
-### Hyperparameter Tuning
+### Modelling & Hyperparameter Tuning
 
 Using GridSearchCV to choose the best parameters.
 
@@ -60,7 +51,7 @@ Using GridSearchCV to choose the best parameters.
 | Random Forest | 41.319943 | 40.419162 |
 |  KNN Classifier | 37.958533 | 40.419162 |
 
-Based on F1 Score evaluation, the best model is Decision Tree Classifier.
+Based on F1 Score, the best model is Decision Tree Classifier.
 
 #### Confusion Matrix Decision Tree Classifier
 
