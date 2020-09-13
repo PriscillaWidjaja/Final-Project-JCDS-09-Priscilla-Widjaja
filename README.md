@@ -36,7 +36,7 @@ The classification goal is to predict if the client will subscribe a term deposi
 | No | 87.75 |
 | Yes | 12.25 |
 
-The target was imbalance. So the SMOTE Oversampling technique was used to balance the target.
+The target was imbalance. So SMOTE Oversampling technique was used to balance the target.
 
 ### Modeling
 
