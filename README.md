@@ -16,7 +16,8 @@ The classification goal is to predict if the client will subscribe a term deposi
 ### Cleaning and Pre-Processing
 
 1. Drop rows containing 'unknown' values and age outliers.
-2. Encoded string datas to numerical.
+2. Encode string datas to numerical.
+3. Scale datas using RobustScaler.
 
 ### Feature Selection
 
