@@ -29,7 +29,8 @@ The classification goal is to predict if the client will subscribe a term deposi
 
 ### Feature Selection
 
-![GitHub Logo](Corr.png)
+![Corr](Corr.png)
+![Feature Selection](Feature Selection.png)
 
 ### Handling Imbalance Target
 
