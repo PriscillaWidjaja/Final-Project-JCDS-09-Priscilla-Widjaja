@@ -20,6 +20,9 @@ The classification goal is to predict if the client will subscribe a term deposi
 
 ### Feature Selection
 
+1. Drop columns that has strong correlations with each other.
+2. Choosing Top 10 features to use.
+
 ![Corr](Corr.png)
 ![FeatureSelection](FeatureSelection.png)
 
