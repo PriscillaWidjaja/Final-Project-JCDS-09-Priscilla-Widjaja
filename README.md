@@ -77,22 +77,22 @@ Based on F1 Score, the best model is Decision Tree Classifier.
 
 #### Home
 
-(gambar)
+![Home](Home.png)
 
-#### Data
+#### Dataset
 
-(gambar)
+![Dataset](Dataset.png)
 
 #### Plot
 
-(gambar)
+![Plot](Visualization.png)
 
 #### Prediction
 
-(gambar)
+![Prediction](Prediction.png)
 
-#### Results
+#### Result
 
-(gambar)
+![Result](Result.png)
 
 ##### Thank you for reading.
