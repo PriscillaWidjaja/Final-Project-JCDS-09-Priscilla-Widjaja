@@ -38,7 +38,7 @@ The classification goal is to predict if the client will subscribe a term deposi
 
 The target was imbalance. So SMOTE Oversampling technique was used to balance the target.
 
-### Modeling
+### Modelling
 
 |           |  F1 Score  |
 |:-|:-:|
@@ -75,7 +75,7 @@ Based on F1 Score evaluation, the best model is Decision Tree Classifier.
 ### Conclusion
 This machine learning helps company to reduce telemarketing costs by eliminating customers who aren't going to subscribe.
 
-The results can be improve by having more data with target = 1.
+The results can be improve by having more datas of bank clients who susbcribed.
 
 This project helps get better understanding at prediction machine learning using classification algorithms.
 
