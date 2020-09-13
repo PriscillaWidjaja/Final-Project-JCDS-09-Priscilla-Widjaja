@@ -62,6 +62,16 @@ Using GridSearchCV to choose the best parameters.
 
 Based on F1 Score evaluation, the best model is Decision Tree Classifier.
 
+#### Confusion Matrix Decision Tree Classifier
+
+##### Before Hyperparameter Tuning
+
+![Before](Before.png)
+
+##### After Hyperparameter Tuning
+
+![After](After.png)
+
 ### Conclusion
 This machine learning helps company to reduce telemarketing costs by eliminating customers who aren't going to subscribe.
 
