@@ -29,7 +29,7 @@ The classification goal is to predict if the client will subscribe a term deposi
 
 ### Feature Selection
 
-![Feature Selection](Feature Selection.png)
+![alt text](https://github.com/PriscillaWidjaja/Final-Project-JCDS-09-Priscilla-Widjaja/blob/master/Feature Selection.png?raw=true)
 
 ### Handling Imbalance Target
 
