@@ -63,12 +63,9 @@ Based on F1 Score, the best model is Decision Tree Classifier.
 
 ![After](After.png)
 
-### Conclusion
-This machine learning helps company to reduce telemarketing costs by eliminating customers who aren't going to subscribe.
-
-The results can be improve by having more datas of bank clients who susbcribed.
-
-This project helps get better understanding at prediction machine learning using classification algorithms.
+### Conclusions:
+- This machine learning helps company to reduce telemarketing costs by eliminating customers who aren't going to subscribe.
+- The results can be improved by having more datas of bank clients who susbcribed.
 
 
 ### Business Insights:
