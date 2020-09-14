@@ -25,7 +25,7 @@ The classification goal is to predict if the client will subscribe a term deposi
 
 ![Corr](/Images/Corr.png)
 
-2. Choosing Top 10 features to use.
+2. Choosing best 10 features to use.
 
 ![FeatureSelection](/Images/FeatureSelection.png)
 
