@@ -19,7 +19,7 @@ The classification goal is to predict if the client will subscribe a term deposi
 2. Encode string datas to numerical.
 3. Scale datas using RobustScaler.
 
-### Feature Selection
+### Features Selection
 
 1. Drop columns that has strong correlations with each other.
 
