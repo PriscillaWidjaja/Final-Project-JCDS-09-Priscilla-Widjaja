@@ -23,11 +23,11 @@ The classification goal is to predict if the client will subscribe a term deposi
 
 1. Drop columns that has strong correlations with each other.
 
-![Corr](Corr.png)
+![Corr](/Images/Corr.png)
 
 2. Choosing Top 10 features to use.
 
-![FeatureSelection](FeatureSelection.png)
+![FeatureSelection](/Images/FeatureSelection.png)
 
 ### Handling Imbalance Target
 
@@ -57,11 +57,11 @@ Based on F1 Score, the best model is Decision Tree Classifier.
 
 ##### Before Hyperparameter Tuning
 
-![Before](Before.png)
+![Before](/Images/Before.png)
 
 ##### After Hyperparameter Tuning
 
-![After](After.png)
+![After](/Images/After.png)
 
 ### Conclusions:
 - This machine learning helps company to reduce telemarketing costs by eliminating customers who aren't going to subscribe.
