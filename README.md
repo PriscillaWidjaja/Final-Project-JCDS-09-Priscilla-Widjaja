@@ -27,7 +27,7 @@ The classification goal is to predict if the client will subscribe a term deposi
 
 2. Choosing best 10 features to use.
 
-![FeatureSelection](/Images/FeatureSelection.png)
+![FeatureSelection](/Images/FeatureSelectioN.png)
 
 ### Handling Imbalance Target
 
