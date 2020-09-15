@@ -83,7 +83,7 @@ Based on F1 Score, the best model is Decision Tree Classifier.
 
 ![Dataset](/Images/Dataset.png)
 
-#### Plot
+#### Business Insight
 
 ![Plot](/Images/Visualization.png)
 
